@@ -1,0 +1,9 @@
+#!/command/with-contenv bashio
+# ==============================================================================
+# Home Assistant Community Add-on: WindHA
+# Runs windha script
+# ==============================================================================
+
+bashio::log.info "Starting WinHA..."
+
+exec /usr/bin/windha.sh
